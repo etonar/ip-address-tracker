@@ -14,7 +14,7 @@ body {
 .hero-container {
     min-height: 250px;
     max-height: 250px;
-    background-image: url(/images/pattern-bg.png);
+    background-image: url(https://etonar.github.io/ip-address-tracker/images/pattern-bg.png);
     background-size: 100%;
     padding-top: 2rem;
     display: flex;
