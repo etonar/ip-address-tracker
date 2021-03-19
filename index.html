@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <div class="hero-container">
+        <h1 class="heading">IP address tracker</h1>
+        <div class="form">
+            <input class="ip-address" type="text" placeholder="Search for any IP address or domain">
+            <button class="track-btn">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="info-container">
+        <div>
+            <span>ip address</span>
+            <p class="ip"></p>
+        </div>
+        <div>
+            <span>location</span>
+            <p class="location"></p>
+        </div>
+        <div>
+            <span>time</span>
+            <p class="timezone"></p>
+        </div>
+        <div>
+            <span>isp</span>
+            <p class="isp"></p>
+        </div>
+    </div>
+    <div id="mapid" class="map-container">
+        
+    </div>
+
+    <script src="file.js"></script>
+</body>
+</html>
